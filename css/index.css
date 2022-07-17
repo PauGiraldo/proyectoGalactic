@@ -177,37 +177,41 @@ padding: 12px;
 
 .grid-container {
    background:linear-gradient(blue, blueviolet,violet);
-   display: grid;
+   display:grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    gap: 5px;
    padding: 1px 5px;
    overflow: hidden;
-   align-content: space-between;
+   align-content:space-between;
 
 }
 
 .grid-container .grid-1 {
-  width: 50px;
+  width: 32%;
   margin: 10px 10px;
   padding: 30px;
+ 
 }
 
 .grid-container .grid-2 {
-  width: 50px;
+  width: 32%;
   margin: 10px 10px;
   padding: 30px;
+  
 }
 
 .grid-container .grid-3 {
-  width: 50px;
+  width: 32%;
   margin: 10px 10px;
   padding: 30px;
+
 }
 
 .grid-container .grid-4 {
-  width: 50px;
+  width: 32%;
   margin: 10px 10px;
   padding: 30px;
+ 
 }
 
 
@@ -217,7 +221,7 @@ padding: 12px;
   border: blueviolet;
   margin: 10px 40px;
   padding: 10px 20px;
-
+  
 }
 
 
@@ -227,7 +231,7 @@ padding: 12px;
   border: blueviolet;
   margin:10px 40px;
   padding: 10px 20px;
-
+ 
 }
 
 .grid-container .grid-3 input{
@@ -236,6 +240,7 @@ padding: 12px;
   border: blueviolet;
   margin:10px 40px;
   padding: 10px 20px;
+  
 
 }
 
@@ -246,7 +251,7 @@ padding: 12px;
   border: blueviolet;
   margin:10px 40px;
   padding: 10px 20px;
-
+  
 }
 
 
@@ -294,10 +299,38 @@ padding: 12px;
 
 }
 
-@media (max-width: 720px) {
-  .grid-container {
-      display: block;
-      text-align: center;
-      padding-left: 100px;
-  }
+@media (min-width: 720px) {
+  .footer .logo_1 {
+    padding: 10px;
+    margin: 10px;
+    border: 40px;
+  
+    float: center;
+    width: 45px;
+      }
 }
+
+@media (min-width: 720px) {
+  .footer .logo_2{
+    padding: 10px;
+    margin: 10px;
+    border: 40px;
+    float: center;
+    width: 45px;
+      }
+}
+
+@media (min-width: 720px) {
+  .footer .logo_3 {
+    padding: 10px;
+    margin: 10px;
+    border: 60px;
+    float: center;
+    width: 45px;
+      }
+}
+
+
+
+
+
